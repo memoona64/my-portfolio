@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import stackImg from "./assets/stack.png";
 // Variants for sequential animation within the text
 const textContainerVariants = {
   hidden: { opacity: 0 },
@@ -74,7 +74,7 @@ function Skills() {
         viewport={{ once: true, amount: 0.5 }}
       >
         <img
-          src="/src/assets/sttack.png"
+          src={stackImg}
           alt="Technical Skills Tag Cloud"
         />
       </motion.div>

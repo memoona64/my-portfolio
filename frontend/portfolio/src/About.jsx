@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
+import aboutImg from "./assets/me2.png";
 
 // Variants for sequential animation within the text
 const containerVariants = {
@@ -40,7 +41,7 @@ function About() {
             delay: 0.3 
         }}
       >
-        <img src="/src/assets/me2.png" alt="Memoona Tariq" />
+        <img src={aboutImg} alt="Memoona Tariq" />
       </motion.div>
 
       {/* 📝 Text Animation: Right se slide aur staggering */}

@@ -5,6 +5,7 @@ import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import profileImg from "./assets/me1.jpg";
 
 const heroContainerVariants = {
   hidden: { opacity: 0 },
@@ -64,7 +65,7 @@ function Home() {
               delay: 1.0,
             }}
           >
-            <img src="me1.jpg" alt="Memoona Tariq" width={100} />
+            <img src={profileImg} alt="Memoona Tariq" width={100} />
           </motion.div>
 
           <motion.h1 variants={heroItemVariants}>Memoona Tariq</motion.h1>
