@@ -40,7 +40,7 @@ function About() {
             delay: 0.3 
         }}
       >
-        <img src="/src/assets/me2-removebg-preview.png" alt="Memoona Tariq" />
+        <img src="/src/assets/me2.png" alt="Memoona Tariq" />
       </motion.div>
 
       {/* 📝 Text Animation: Right se slide aur staggering */}

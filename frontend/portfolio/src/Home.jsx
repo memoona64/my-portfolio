@@ -64,7 +64,7 @@ function Home() {
               delay: 1.0,
             }}
           >
-            <img src="/src/assets/ai-me2.jpg" alt="Memoona Tariq" width={100} />
+            <img src="me1.jpg" alt="Memoona Tariq" width={100} />
           </motion.div>
 
           <motion.h1 variants={heroItemVariants}>Memoona Tariq</motion.h1>

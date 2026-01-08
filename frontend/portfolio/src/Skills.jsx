@@ -74,7 +74,7 @@ function Skills() {
         viewport={{ once: true, amount: 0.5 }}
       >
         <img
-          src="/src/assets/CODEVENOM_Fullstack_Development_Wallpaper-removebg-preview.png"
+          src="/src/assets/sttack.png"
           alt="Technical Skills Tag Cloud"
         />
       </motion.div>
